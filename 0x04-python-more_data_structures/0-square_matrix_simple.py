@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
     """
-    function thhat return square of all matrix values
+    function that return square of all matrix values
     """
     if len(matrix) != 0:
         copy = matrix[:]
