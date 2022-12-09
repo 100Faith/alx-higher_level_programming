@@ -1,13 +1,12 @@
 #!/usr/bin/python3
+
 def square_matrix_simple(matrix=[]):
     """
-    function that return square of all matrix values
+    wordA function that computes the square
+    value of all integers of a matrix.
     """
-    if len(matrix) != 0:
-        copy = matrix[:]
-        new_list = []
-        for nlist in matrix:
-            copy = list(map(lambda x: x * x, nlist))
-            new_list.append(copy)
-            return new_list
-        # return list(map(lambda x: list(map(lambda x: x * x, x)), matrix))
+    new_matrix = []
+    for col in matrix:
+        result = list(map(lambda x: x**2, col))
+        new_matrix.append(result)
+        return new_matrix
