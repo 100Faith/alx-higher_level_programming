@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-xports.nbOccurences = function (list, searchElement) {
+exports.nbOccurences = function (list, searchElement) {
   let occurences = 0;
   for (const elem of list) {
     if (elem === searchElement) {
